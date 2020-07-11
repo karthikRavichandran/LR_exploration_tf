@@ -17,5 +17,5 @@ Algo. implementation as classes:
 6) Cyclical Learning Rates
 
 ####### Innovation : Combained Hyperbolic-Tangent Decay and Cyclical Learning Rates #######
-In this algorithm I have combained just like how modulation signals are added ; High frequency(lr will change in every batch in a epoch) + Low frequency(lr range  will change in every Epoch)
+In this algorithm I have combained just like how two modulation signals are added ; High frequency(lr will change in every batch in a epoch) + Low frequency(lr range  will change in every epoch)
 ####### Results: Small implementation check in fashion_mnist dataset ########
