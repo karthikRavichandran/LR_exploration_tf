@@ -4,10 +4,9 @@ import numpy as np
 import math
 
 class CosLR(Callback):
-
     def __init__(self, base_lr=0.001, max_lr=0.006, step_size=2000., mode='triangular',
-                 gamma=1., scale_fn=None, scale_mode='cycle', total_epoch):
-        super(HtdLR, self).__init__()
+                 gamma=1., scale_fn=None, scale_mode='cycle', total_epoch = 10):
+        super(CosLR, self).__init__()
         self.total_epoch = total_epoch
         self.lr_cg_th = -1
         self.base_lr = base_lr
